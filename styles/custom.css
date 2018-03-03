@@ -1,0 +1,184 @@
+html, body, .container-fluid {
+	height: 100%;
+	font-size: 2em;
+}
+
+.mobile {
+	background-color: #2c3e50;
+}
+
+.title {
+	color: white !important;
+}
+
+.headerrow {
+	height: 9%;
+}
+
+.datarow {
+	height: 90%;
+}
+
+.datarow-desktop {
+	height: 100%;
+}
+
+.datarow-desktop .row {
+	height: 100%;
+}
+
+.datarow .row {
+	height: 100%;
+}
+
+.main-column {
+	text-align: center;
+	height: 100%;
+}
+
+.column {
+	text-align: center;
+	height: 100%;
+}
+
+.stat {
+	height: 16.55%;
+}
+
+.stat-right {
+	height: 24.8%;
+}
+
+.stat-title {
+	height: 45px !important;
+}
+
+.call-title {
+	height: 20px !important;
+}
+
+.average {
+	height: 16.55%;
+}
+
+.progress {
+	height: 32.7%;
+	margin-bottom: 0%;
+}
+
+.chart {
+	height: 100%;
+}
+
+h2.title {
+	margin-top: 5px;
+}
+
+@media (max-device-width: 760px) {
+	h3.title {
+		margin-bottom: 40px;
+	}
+}
+
+.tile {
+	opacity: 1;
+}
+
+.tile-header {
+	opacity: 0.7;
+}
+
+.header-column.tile-header {
+	background-color: #16a085;
+}
+
+.tile.tile-header {
+	background-color: #16a085;
+}
+
+.tile.tile-emerald {	
+	background-color: #27ae60;
+}			
+
+.tile.tile-average {	
+	background-color: #2980b9;
+}		
+
+.tile.tile-danger {	
+	background-color: #c0392b;
+}
+
+.tile.tile-level {	
+	background-color: #9b59b6;
+}
+
+.tile.tile-percentage {	
+	background-color: #e67e22;
+}
+
+.tile.tile-chart {	
+	background-color: #ecf0f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+.header-column {
+	height: 11%;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	  -webkit-perspective: 0;
+	  -webkit-transform-style: preserve-3d;
+	  -webkit-transition: -webkit-transform 0.2s;
+	  float: left;
+	text-align: center;
+	z-index: 1;
+	border: 4px #ffffff solid;
+	color: #ffffff;
+}
+
+.blink {
+	font-size: 240px;
+	color: #f1c40f !important;
+	animation: blink 1s infinite;
+}
+
+@keyframes blink {
+	0%{opacity: 1;}
+	75%{opacity: 1;}
+	76%{ opacity: 0;}
+	100%{opacity: 0;}
+}
+
+/*** mobile ***/
+.stat-mobile {
+	min-height: 100px;
+	max-height: 100px;
+}
+
+.stat-right-mobile {
+	height: 150px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.average-mobile {
+	min-height: 100px;	
+}
+
+.progress-mobile {
+	min-height: 200px;
+	max-height: 200px;
+	margin-bottom: 0;
+}
+
+.chart-mobile {
+	min-height:300px;
+	max-height:300px;
+	margin-bottom: 0;
+}
+/*** end mobile ***/
